@@ -1,0 +1,312 @@
+
+.box-second{
+    height: 700px;
+    width:900px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 750px;
+    right: 1400px;
+    border-radius: 20px;
+}
+.animate{
+    animation: move 3s forwards;
+}
+
+@keyframes move{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(1300px);
+    }
+}
+#box12{
+    height: 200px;
+    width: 800px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place1{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#img11{
+    background-image: url(trs.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+#score1{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place2{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#img12{
+    background-image: url(bjp.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+#score2{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place3{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img13{
+    background-image: url(congress.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+#score3{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place4{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#img14{
+    background-image: url(CPI.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+#score4{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place5{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#img15{
+    background-image: url(janasena.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+#score5{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#box13{
+    height: 200px;
+    width: 800px;
+    /* background-color: white; */
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place6{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#img16{
+    background-image: url(ysrcp.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+}
+#score6{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place7{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#img17{
+    background-image: url(tdp.png);
+    background-size: cover;
+    background-position:center;
+    height: 100px;
+    width: 100px;
+}
+#score7{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place8{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#img18{
+    background-image: url(bsp.png);
+    background-size: cover;
+    background-position:center;
+    height: 100px;
+    width: 100px;
+}
+#score8{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place9{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#img19{
+    background-image: url(mim.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+#score9{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#place10{
+    height: 180px;
+    width:100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#img20{
+    background-image: url(notalogo.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+#score10{
+    height: 50px;
+    width: 100px;
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#box14{
+    height: 200px;
+    width: 800px;
+    /* background-color: white; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
